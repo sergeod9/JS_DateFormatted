@@ -1,4 +1,5 @@
 # JS_DateFormatted
+Version(0.0.1)
 DateForatted class simplifies the process of getting a formatted date and time.
 How to use:
 1- Make sure you include the link to the file before the link to the js file that is using this module. 
@@ -25,3 +26,7 @@ METHODS:
     ++ returns the time including hours, minutes, and seconds in 24 hours format
 - getTime24_short()
     ++ returns the time including hours, and minutes in 24 hours format
+
+# WARNING:
+- Requires ES6/ES2015 support
+- For the time being (version 0.0.1) only EN-US is available.
