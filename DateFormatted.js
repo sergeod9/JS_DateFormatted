@@ -12,6 +12,8 @@ METHODS:
     ++ returns the short 3 letters version of the month, exmp: Jan
 - getMonth_digits()
     ++ returns the month in a 2 digits format, expm: january will be 01
+- getDate()
+    ++ returns today's date in 2 digits format
 - getDay_long()
     ++ returns today's full name, exmp: Sunday
 - getDay_short()
@@ -55,6 +57,9 @@ class DateFormatted{
   }
   getDay_short(){
     return this.day[today.getDay()].slice(0,3);
+  }
+  getDate(){
+    return ("0" + today.getDate()).slice(-2);
   }
   getMonth_long(){
     return this.month[today.getMonth()];
